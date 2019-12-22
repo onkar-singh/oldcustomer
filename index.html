@@ -4,11 +4,9 @@
 <title>Oldcustomer audio</title>
 </head>
 <body>
-
-<audio id="myAudio" src="oldcustomer.mp3" autoplay loop>
 <script>
-setInterval(function() {document.getElementById("myAudio").play();},4000);
+var audio = new Audio('oldcustomer.mp3');
+setInterval(function() {audio.play();},4000);
 </script>
 </body>
 </html> 
-
