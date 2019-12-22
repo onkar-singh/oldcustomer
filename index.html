@@ -2,11 +2,13 @@
 <html>
 <body>
 
-<audio id="myAudio" src="oldcustomer.mp3">
+<audio src="oldcustomer.mp3">
+  Your browser does not support the audio element.
+</audio>
 <script>
 setInterval(function() {
-var x = document.getElementById("myAudio").play();
-},4000);
+document.querySelector("audio").play();
+},5000);
 </script>
 
 </body>
