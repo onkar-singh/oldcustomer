@@ -5,9 +5,11 @@
 </head>
 <body>
 <script>
+document.getElementById("audio").play().catch(function() {
 var audio = new Audio('oldcustomer.mp3');
-document.body.click()
 setInterval(function() {audio.play();},4000);
+});
+
 </script>
 </body>
 </html> 
