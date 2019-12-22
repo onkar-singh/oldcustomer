@@ -2,13 +2,11 @@
 <html>
 <body>
 
-<audio id="myAudio">
-  <source src="oldcustomer.mp3" type="audio/mpeg">
-</audio>
+<audio id="myAudio" src="oldcustomer.mp3">
 <script>
 setInterval(function() {
-var x = document.getElementById("myAudio"); 
-x.play(); },4000);
+var x = document.getElementById("myAudio").play();
+},4000);
 </script>
 
 </body>
